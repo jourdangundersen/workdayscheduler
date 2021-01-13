@@ -7,3 +7,7 @@ $(".btn-primary").on("click", function (){
     console.log(timeblock, userdata);
     localStorage.setItem(timeblock, userdata);
 })
+var currenttimeblock = moment().hour();
+for (let i=9; i<=17; i++){
+    $(`#${i}-text`).val(localStorage.getItem(i));
+}
