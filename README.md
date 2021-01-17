@@ -20,3 +20,9 @@
 - font family was created to keep uniformness throughout webpage
 - all textareas were made transparent 
 - standard css file for this assignment, the color change of the textArea's occurs in the script.js file
+
+# working link - https://jourdangundersen.github.io/workdayscheduler/
+
+![](assets/screenshot1.png)
+![](assets/screenshot2.png)
+![](assets/screenshot3.png)
