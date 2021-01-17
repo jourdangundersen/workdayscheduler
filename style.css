@@ -1,9 +1,10 @@
+/* makes all of the font in the body uniform */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
-
+/* makes all of the textArea's transparent by default */
 textarea{
   background: transparent;
   border: none;
