@@ -19,6 +19,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <!-- title of the webpage -->
     <title>Work Day Scheduler</title>
   </head>
 
@@ -28,7 +29,10 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentday" class="lead"></p>
     </header>
+    <!-- created a container to hold all of the time slots -->
     <div class="container">
+      <!-- created div tags for every time slot -->
+      <!-- also assigned every time slot a unique id -->
       <div class="row">
         <div class="col-md-3"><p>9:00am</p></div>
         <div class="col-md-6"><textarea class="userinput" id="9-text" cols="40" rows="1"></textarea></div>
@@ -75,6 +79,7 @@
         <div class="col-md-3"><button class="btn btn-primary" id="17-save">Save</button></div>
       </div>
     </div>
+    <!-- footer at the bottom of the page with the developer's name -->
     <footer class="text-center bg-secondary text-white">
       <h6 class="p-4 m-4">Jourdan Gundersen</h6>
     </footer>
